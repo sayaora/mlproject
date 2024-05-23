@@ -2,5 +2,15 @@
  
 {% block content %}
 {{ super() }}
-<p>Логистическая регрессия для классификации Ирисов
+<p>Метод модели Дерево условий
+<form action="/p_lab3" method="POST">
+    <p><input type="text" class="form_text" name="list1"> age </p>
+    <p><input name="list2" class="form_text" type="text"> gender</p>
+    <input type="submit" class="form_btn" value="Узнать кинжку">
+    <h1>{{class_model}}</h1>
+    </p>
+</form>
+
+
+
 {% endblock %}
